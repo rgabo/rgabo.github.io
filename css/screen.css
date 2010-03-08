@@ -123,6 +123,14 @@ ul.posts {
     overflow: hidden;
   }
 
+  .site .note {
+    border-top: 0px
+}
+
+	  .site .note a {
+        color: #8085C1;
+	}
+
     .site .footer .contact {
       float: left;
       margin-right: 3em;
