@@ -1,0 +1,27 @@
+---
+layout: default
+title: Gabor Ratky
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  
+  <h1>Interviews, Talks, Etc</h1>
+  <ul class="posts">
+	<li><span>3 June 2009</span> &raquo; <a href="http://vimeo.com/4998639">TweetCraft - Twitter client for Azeroth (Budapest New Tech Meetup)</a></li>
+	<li><span>15 September 2008</span> &raquo; <a href="http://channel9.msdn.com/posts/AnthonyC/Visual-Studio-Add-ins-Templates-and-Wizards/">VSX DevCon 2008: Visual Studio Add-ins, Templates and Wizards</a></li>
+    <li><span>30 July 2008</span> &raquo; <a href="http://channel9.msdn.com/posts/Dan/Gabor-Ratky-and-Attila-Kisko-AddOn-Studio-for-World-of-Warcraft/">Channel 9: AddOn Studio for World of Warcraft</a></li>
+  </ul>
+  
+  <h1>Open Source Projects</h1>
+  <ul class="posts">
+    <li><a href="http://tweetcraft.codeplex.com">TweetCraft:</a> Twitter client for World of Warcraft (Coding4Fun)</li>
+    <li><a href="http://addonstudio.codeplex.com">AddOn Studio for World of Warcraft:</a> An IDE for developing World of Warcraft AddOns</li>
+  </ul>
+</div>
+  
