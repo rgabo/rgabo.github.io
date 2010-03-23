@@ -19,7 +19,7 @@ Third Party Applications
 [Homebrew](http://github.com/mxcl/homebrew) sets itself up in /usr/local by default and it is completely self-contained. Even better, /usr/local/bin is included in the default PATH environment variable so we don't even need to add that. Running a Ruby [gist](http://gist.github.com/327800) will take ownership of /usr/local and extract Homebrew there.
 
 {% highlight bash %}
-malpais:~ rgabo$ curl http://gist.github.com/gists/323731/download | tar -xvzO > install_homebrew.rb
+malpais:~ rgabo$ curl http://gist.github.com/gists/323731/download | tar -xO > install_homebrew.rb
 malpais:~ rgabo$ ruby install_homebrew.rb
 {% endhighlight %}
 
