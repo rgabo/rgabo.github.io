@@ -1,0 +1,11 @@
+# jekyll.gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
+classifier -v1.3.1
+directory_watcher -v1.3.1
+jekyll -v0.5.7
+liquid -v2.0.0
+maruku -v0.6.0
+open4 -v1.0.1
+rdiscount -v1.6.3
+RedCloth -v4.2.3
+stemmer -v1.0.1
+syntax -v1.0.0
